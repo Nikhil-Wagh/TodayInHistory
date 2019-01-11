@@ -1,0 +1,53 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.0.0"
+        }
+    ],
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "Container",
+                "height": "100vh",
+                "items": [
+                    {
+                        "type": "Image",
+                        "source": "${payload.bodyTemplate1Data.backgroundImage.sources[0].url}",
+                        "position": "absolute",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "scale": "best-fill"
+                    },
+                    {
+                        "type": "AlexaHeader",
+                        "headerTitle": "${payload.bodyTemplate1Data.title}",
+                        "headerAttributionImage": "${payload.bodyTemplate1Data.logoUrl}"
+                    },
+                    {
+                        "type": "Container",
+                        "grow": 1,
+                        "paddingLeft": "60",
+                        "paddingRight": "60",
+                        "paddingBottom": "40",
+                        "paddingTop": "40",
+                        "items": [
+                            {
+                                "type": "Text",
+                                "text": "${payload.bodyTemplate1Data.textContent.primaryText.text}",
+                                "fontSize": "48",
+                                "spacing": "12"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

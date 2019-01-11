@@ -1,0 +1,140 @@
+{
+    "header": {
+        "namespace": "SkillDebugger",
+        "name": "CaptureDebuggingInfo",
+        "messageId": "3e1ab66b-0bd9-4adb-b30f-5abe4f65d862"
+    },
+    "payload": {
+        "skillId": "amzn1.ask.skill.a5deb6e2-e4bc-4156-be00-c78e7ee05202",
+        "timestamp": "2019-01-07T15:35:58.115Z",
+        "dialogRequestId": "32aedab3-8708-4062-acba-735d4301051d",
+        "skillRequestId": "amzn1.echo-api.request.abca9226-b13b-4c04-9d75-9e1979a77a6f",
+        "type": "SkillExecutionInfo",
+        "content": {
+            "invocationRequest": {
+                "endpoint": "arn:aws:lambda:us-east-1:800844573465:function:TodayInHistory",
+                "body": {
+                    "version": "1.0",
+                    "session": {
+                        "new": true,
+                        "sessionId": "amzn1.echo-api.session.3f0c6cbc-aa48-4903-be33-16b4395542ca",
+                        "application": {
+                            "applicationId": "amzn1.ask.skill.a5deb6e2-e4bc-4156-be00-c78e7ee05202"
+                        },
+                        "user": {
+                            "userId": "amzn1.ask.account.AGETLAOHGD46T7T6633SFDIGGP4CWD7OHMDE52WK3DTWU7KZ4IDJL3Y4XWNTDYFWRZDGJYLCBKE2OTRMSUEWB66ICJEI6LA7VM2MAMLVRHZUO36ZHTH4GLDWX4RFM6IVLJCIHHK7FSV7W34D6KT2SJ36YARMY7UK4GYHZ2VV2KTGQUNG2BK476OU4ZOU6GVSYVCDZXNJASCBVBQ"
+                        }
+                    },
+                    "context": {
+                        "System": {
+                            "application": {
+                                "applicationId": "amzn1.ask.skill.a5deb6e2-e4bc-4156-be00-c78e7ee05202"
+                            },
+                            "user": {
+                                "userId": "amzn1.ask.account.AGETLAOHGD46T7T6633SFDIGGP4CWD7OHMDE52WK3DTWU7KZ4IDJL3Y4XWNTDYFWRZDGJYLCBKE2OTRMSUEWB66ICJEI6LA7VM2MAMLVRHZUO36ZHTH4GLDWX4RFM6IVLJCIHHK7FSV7W34D6KT2SJ36YARMY7UK4GYHZ2VV2KTGQUNG2BK476OU4ZOU6GVSYVCDZXNJASCBVBQ"
+                            },
+                            "device": {
+                                "deviceId": "amzn1.ask.device.AFG6OWVXSE5RQ2MHN3HDNBYZSEETTYK3EKZL6LC75VTWP2Z7T5MYXW2NLDJFB2OQ6WP3DH3VF47XG6GTF26FIBYWAZYWYJ2RM3YG4OZ2SZNGN3M32CFW4XX24TD6IZCLBLEFWEUY4H3QPZ5CPUPPYL7I3TYZ2XKSURINGYUCA4UOKYJZU4YCO",
+                                "supportedInterfaces": {
+                                    "Alexa.Presentation.APL": {
+                                        "runtime": {
+                                            "maxVersion": "1.0"
+                                        }
+                                    }
+                                }
+                            },
+                            "apiEndpoint": "https://api.eu.amazonalexa.com",
+                            "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmE1ZGViNmUyLWU0YmMtNDE1Ni1iZTAwLWM3OGU3ZWUwNTIwMiIsImV4cCI6MTU0Njg3ODk1NiwiaWF0IjoxNTQ2ODc1MzU2LCJuYmYiOjE1NDY4NzUzNTYsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZHNk9XVlhTRTVSUTJNSE4zSEROQllaU0VFVFRZSzNFS1pMNkxDNzVWVFdQMlo3VDVNWVhXMk5MREpGQjJPUTZXUDNESDNWRjQ3WEc2R1RGMjZGSUJZV0FaWVdZSjJSTTNZRzRPWjJTWk5HTjNNMzJDRlc0WFgyNFRENklaQ0xCTEVGV0VVWTRIM1FQWjVDUFVQUFlMN0kzVFlaMlhLU1VSSU5HWVVDQTRVT0tZSlpVNFlDTyIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHRVRMQU9IR0Q0NlQ3VDY2MzNTRkRJR0dQNENXRDdPSE1ERTUyV0szRFRXVTdLWjRJREpMM1k0WFdOVERZRldSWkRHSllMQ0JLRTJPVFJNU1VFV0I2NklDSkVJNkxBN1ZNMk1BTUxWUkhaVU8zNlpIVEg0R0xEV1g0UkZNNklWTEpDSUhISzdGU1Y3VzM0RDZLVDJTSjM2WUFSTVk3VUs0R1lIWjJWVjJLVEdRVU5HMkJLNDc2T1U0Wk9VNkdWU1lWQ0RaWE5KQVNDQlZCUSJ9fQ.J1y9sxk_C6oQTeodkxGggKeqwDlDdb5g8IdPDU00C5bwIYnCO7KaX4-lU-AenKw3pZZhqC4U3rsT7oulsu_9RmmxqiYSZ-5-VQj0PD3J5J8dE-FcYPqvW1HFyKOORHeecW8QhGuzeFraarXxXGp5nwCEuarWu4cvm_2GmxGxM20W3pSVGbj8WMacH-9gdiy3hHmK0kzsWs9WUCOOW71oVoyHbRBACv5f62DhQLMGoSxMSWuEtTZ3qwxVw_6z8SgRZgPE3L1-47VxuL0KhQAMsgZu1IVHN3IS98-0eD0upBm1luOUugAAVynZywiwfuBcj2fgw0Rxor_YeCZftQvu1Q"
+                        },
+                        "Viewport": {
+                            "experiences": [
+                                {
+                                    "arcMinuteWidth": 246,
+                                    "arcMinuteHeight": 144,
+                                    "canRotate": false,
+                                    "canResize": false
+                                }
+                            ],
+                            "shape": "RECTANGLE",
+                            "pixelWidth": 1024,
+                            "pixelHeight": 600,
+                            "dpi": 160,
+                            "currentPixelWidth": 1024,
+                            "currentPixelHeight": 600,
+                            "touch": [
+                                "SINGLE"
+                            ]
+                        }
+                    },
+                    "request": {
+                        "type": "LaunchRequest",
+                        "requestId": "amzn1.echo-api.request.abca9226-b13b-4c04-9d75-9e1979a77a6f",
+                        "timestamp": "2019-01-07T15:35:56Z",
+                        "locale": "en-US",
+                        "shouldLinkResultBeReturned": false
+                    }
+                }
+            },
+            "invocationResponse": {
+                "body": {
+                    "version": "1.0",
+                    "response": {
+                        "outputSpeech": {
+                            "type": "SSML",
+                            "ssml": "<speak>On  1745-12-25 Treaty of Dresden gives much of Silesia to the Prussians</speak>"
+                        },
+                        "card": {
+                            "type": "Simple",
+                            "title": "Level Up Riddles",
+                            "content": "On  1745-12-25 Treaty of Dresden gives much of Silesia to the Prussians"
+                        },
+                        "directives": [
+                            {
+                                "type": "Alexa.Presentation.APL.RenderDocument",
+                                "document": {
+                                    "type": "APL",
+                                    "version": "1.0",
+                                    "import": [
+                                        {
+                                            "name": "alexa-layouts",
+                                            "version": "1.0.0"
+                                        }
+                                    ],
+                                    "mainTemplate": {
+                                        "parameters": [
+                                            "payload"
+                                        ],
+                                        "items": [
+                                            {
+                                                "type": "Text",
+                                                "text": "Test: ${datasources.bodyTemplate1Data.type}\nType: ${type}\nToken: ${payload.presentationToken}"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "datasources": {
+                                    "bodyTemplate1Data": {
+                                        "type": "object",
+                                        "objectId": "bt1Sample",
+                                        "title": "event",
+                                        "textContent": {
+                                            "primaryText": {
+                                                "type": "PlainText",
+                                                "text": "On  1745-12-25 Treaty of Dresden gives much of Silesia to the Prussians"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "sessionAttributes": {},
+                    "userAgent": "ask-node/2.3.0 Node/v8.10.0"
+                }
+            },
+            "metrics": {
+                "skillExecutionTimeInMilliseconds": 1541
+            }
+        }
+    }
+}
