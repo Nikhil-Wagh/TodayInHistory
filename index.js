@@ -195,7 +195,6 @@ const getUrl = function (urlParams) {
 const getUrlParams = function (slots) {
 	let type, month, day;
 	var items = ["birth", "death", "event", "aviation"];
-	type = items[Math.floor(Math.random()*items.length)];
 	if (slots != null) {
 		if (slots.Type != null) {
 			if (slots.Type.name == 'Type' && slots.Type.value != null) {
@@ -208,6 +207,8 @@ const getUrlParams = function (slots) {
 			}
 		}
 	}
+	if (!items.includes(type))
+		type = items[Math.floor(Math.random()*items.length)];
 	var date = new Date();
 	month = date.getMonth() + 1;
 	day = date.getDate();
